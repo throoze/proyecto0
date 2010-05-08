@@ -1,0 +1,260 @@
+Error: # cuenta incorrecto.
+Ok.
+Error: # cuenta incorrecto.
+Ok.
+Error: # cuenta incorrecto.
+Error: # cuenta1 incorrecto.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Ok.
+Error: # cuenta incorrecto.
+0. apt 2 2 947
+1. ret 2 53
+bal 894
+Ok.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+0. apt 1 2 371
+bal 371
+Ok.
+Error: # cuenta1 incorrecto.
+Error: # cuenta incorrecto.
+Ok.
+Error: # cuenta1 incorrecto.
+Ok.
+Ok.
+0. apt 3 3 769
+bal 769
+Ok.
+0. apt 1 2 371
+bal 371
+Ok.
+0. apt 3 3 769
+bal 769
+Ok.
+Error: # cuenta incorrecto.
+Ok.
+0. apt 2 2 947
+1. ret 2 53
+2. dep 2 418
+3. ret 2 405
+bal 907
+Ok.
+Error: monto incorrecto.
+Ok.
+0. apt 1 2 371
+1. dep 1 119
+2. dep 1 880
+bal 1370
+Ok.
+Ok.
+Error: # cuenta1 igual a # cuenta2.
+Ok.
+Error: # cuenta2 incorrecto.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Ok.
+Ok.
+Error: # cuenta incorrecto.
+Ok.
+Error: monto incorrecto.
+Error: monto incorrecto.
+Ok.
+Ok.
+Ok.
+Ok.
+Error: monto incorrecto.
+Error: monto incorrecto.
+Ok.
+Ok.
+Ok.
+Ok.
+Error: # cuenta incorrecto.
+0. apt 2 2 947
+1. ret 2 53
+2. dep 2 418
+3. ret 2 405
+4. dep 2 817
+5. dep 2 334
+6. dep 2 709
+7. trn 1 2 307
+8. dep 2 296
+9. ret 2 513
+10. ret 2 574
+bal 2283
+Ok.
+Error: monto incorrecto.
+Ok.
+Ok.
+Ok.
+Ok.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Error: monto incorrecto.
+0. apt 0 0 154
+1. trn 0 1 145
+2. dep 0 411
+3. ret 0 403
+bal 17
+Ok.
+Ok.
+Ok.
+Error: # cuenta1 igual a # cuenta2.
+0. apt 1 2 371
+1. dep 1 119
+2. dep 1 880
+3. dep 1 479
+4. trn 1 2 307
+5. ret 1 901
+6. trn 0 1 145
+7. dep 1 480
+8. ret 1 100
+bal 1166
+Ok.
+0. apt 1 2 371
+1. dep 1 119
+2. dep 1 880
+3. dep 1 479
+4. trn 1 2 307
+5. ret 1 901
+6. trn 0 1 145
+7. dep 1 480
+8. ret 1 100
+bal 1166
+Ok.
+Ok.
+0. apt 1 2 371
+1. dep 1 119
+2. dep 1 880
+3. dep 1 479
+4. trn 1 2 307
+5. ret 1 901
+6. trn 0 1 145
+7. dep 1 480
+8. ret 1 100
+bal 1166
+Ok.
+Ok.
+Ok.
+0. apt 0 0 154
+1. trn 0 1 145
+2. dep 0 411
+3. ret 0 403
+4. dep 0 245
+bal 262
+Ok.
+Error: # cuenta incorrecto.
+Error: monto incorrecto.
+Ok.
+Ok.
+Error: monto incorrecto.
+0. apt 0 0 154
+1. trn 0 1 145
+2. dep 0 411
+3. ret 0 403
+4. dep 0 245
+bal 262
+Ok.
+0. apt 3 3 769
+1. dep 3 73
+2. trn 3 2 570
+bal 272
+Ok.
+Ok.
+Ok.
+Ok.
+0. apt 0 0 154
+1. trn 0 1 145
+2. dep 0 411
+3. ret 0 403
+4. dep 0 245
+5. dep 0 889
+6. trn 0 3 877
+bal 274
+Ok.
+Error: # cuenta1 igual a # cuenta2.
+Ok.
+Ok.
+Ok.
+Ok.
+Ok.
+Ok.
+Ok.
+0. apt 2 2 947
+1. ret 2 53
+2. dep 2 418
+3. ret 2 405
+4. dep 2 817
+5. dep 2 334
+6. dep 2 709
+7. trn 1 2 307
+8. dep 2 296
+9. ret 2 513
+10. ret 2 574
+11. ret 2 904
+12. dep 2 828
+13. ret 2 896
+14. dep 2 409
+15. trn 3 2 570
+16. trn 2 0 929
+17. trn 2 3 166
+bal 1195
+Ok.
+Ok.
+Ok.
+Ok.
+Error: monto incorrecto.
+Error: # cuenta1 igual a # cuenta2.
+Ok.
+Error: # cuenta incorrecto.
+0. apt 2 2 947
+1. ret 2 53
+2. dep 2 418
+3. ret 2 405
+4. dep 2 817
+5. dep 2 334
+6. dep 2 709
+7. trn 1 2 307
+8. dep 2 296
+9. ret 2 513
+10. ret 2 574
+11. ret 2 904
+12. dep 2 828
+13. ret 2 896
+14. dep 2 409
+15. trn 3 2 570
+16. trn 2 0 929
+17. trn 2 3 166
+18. ret 2 302
+bal 893
+Ok.
+Ok.
+Ok.
+Error: monto incorrecto.
+Ok.
+0. apt 0 0 154
+1. trn 0 1 145
+2. dep 0 411
+3. ret 0 403
+4. dep 0 245
+5. dep 0 889
+6. trn 0 3 877
+7. trn 2 0 929
+8. ret 0 741
+bal 462
+Ok.
+Error: # cuenta incorrecto.
+Ok.
+Ok.
+Error: monto incorrecto.
+Error: # cuenta1 igual a # cuenta2.
+Ok.
+Error: monto incorrecto.
+Ok.
+Ok.
+Ok.
+Ok.
+Ok.
+Ok.

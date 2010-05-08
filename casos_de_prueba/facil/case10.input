@@ -1,0 +1,150 @@
+edc 2
+edc 3
+apt 0 0 930
+trn 0 0 885
+edc 1
+ret 1 865
+dep 2 586
+trn 3 1 119
+dep 1 458
+trn 0 2 955
+ret 2 300
+apt 2 2 909
+trn 3 0 952
+ret 0 496
+dep 0 2
+ret 2 974
+dep 3 191
+edc 1
+ret 0 427
+trn 0 1 660
+trn 2 2 233
+ret 0 677
+edc 3
+ret 1 69
+dep 0 420
+apt 2 1 479
+dep 3 316
+ret 0 741
+edc 2
+trn 2 3 606
+apt 2 3 893
+trn 2 2 488
+edc 0
+trn 2 1 223
+edc 1
+trn 0 2 971
+edc 3
+trn 2 1 550
+ret 2 976
+apt 2 3 715
+dep 0 584
+ret 3 376
+trn 0 0 674
+ret 1 580
+edc 2
+apt 0 0 337
+dep 1 558
+edc 1
+apt 3 1 422
+dep 3 982
+dep 0 576
+ret 3 603
+trn 2 3 420
+edc 3
+trn 2 0 148
+dep 2 761
+apt 1 3 941
+apt 3 2 716
+edc 0
+apt 1 3 723
+edc 0
+apt 1 2 576
+ret 1 517
+trn 3 1 373
+trn 3 2 617
+trn 2 2 528
+edc 0
+trn 0 1 154
+ret 2 172
+apt 0 0 219
+edc 3
+apt 2 3 648
+ret 3 126
+apt 2 3 373
+edc 0
+apt 0 0 83
+trn 2 2 762
+edc 1
+edc 3
+ret 0 7
+ret 3 830
+dep 1 127
+trn 0 3 269
+dep 1 554
+ret 3 191
+apt 3 3 960
+dep 1 662
+trn 1 3 383
+apt 3 3 768
+edc 0
+trn 1 1 362
+ret 3 635
+ret 2 502
+edc 0
+dep 1 598
+trn 0 3 578
+dep 1 838
+apt 3 1 242
+ret 2 749
+ret 1 369
+trn 2 3 548
+dep 2 497
+dep 0 637
+dep 3 637
+dep 3 548
+apt 2 3 99
+dep 0 729
+apt 0 3 890
+edc 3
+apt 2 3 460
+dep 1 519
+apt 0 2 213
+apt 1 3 727
+trn 0 0 369
+apt 1 3 835
+trn 0 3 33
+trn 1 3 947
+trn 0 2 439
+trn 0 1 217
+dep 3 292
+ret 1 915
+dep 2 800
+apt 3 0 782
+apt 1 1 986
+edc 1
+dep 3 484
+edc 2
+dep 2 168
+edc 1
+apt 0 3 541
+ret 1 439
+apt 3 0 33
+ret 2 276
+trn 1 2 944
+edc 2
+ret 0 763
+apt 0 1 307
+dep 2 978
+edc 0
+edc 1
+trn 0 3 550
+dep 0 951
+dep 0 20
+edc 0
+dep 2 72
+apt 3 3 332
+dep 3 433
+ret 0 314
+apt 3 3 423
+trn 1 3 461

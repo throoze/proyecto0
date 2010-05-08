@@ -1,0 +1,45 @@
+Ok.
+Error: # cuenta incorrecto.
+0. apt 3 1 477
+bal 477
+Ok.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Ok.
+Ok.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Ok.
+0. apt 1 1 598
+bal 598
+Ok.
+0. apt 1 1 598
+bal 598
+Ok.
+Error: # cuenta incorrecto.
+0. apt 2 0 62
+bal 62
+Ok.
+Error: # cuenta incorrecto.
+Ok.
+Ok.
+Error: # cuenta incorrecto.
+Ok.
+Ok.
+Ok.
+Error: monto incorrecto.
+Ok.
+Ok.
+0. apt 2 0 62
+1. ret 2 36
+bal 26
+Ok.
+Ok.
+Ok.
+0. apt 0 1 706
+1. ret 0 479
+2. trn 1 0 403
+bal 630
+Ok.
+Error: monto incorrecto.

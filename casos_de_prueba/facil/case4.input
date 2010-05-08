@@ -1,0 +1,40 @@
+ret 1 265
+ret 1 126
+ret 1 231
+ret 1 165
+dep 1 153
+ret 0 351
+trn 1 0 277
+edc 0
+dep 0 751
+edc 0
+edc 0
+trn 1 0 432
+ret 0 291
+ret 0 113
+dep 0 708
+ret 1 319
+dep 1 625
+trn 0 1 846
+ret 1 531
+ret 1 979
+edc 0
+trn 0 0 671
+dep 0 703
+apt 0 1 329
+ret 0 300
+trn 0 0 150
+dep 0 595
+trn 0 0 178
+dep 1 326
+edc 0
+ret 0 561
+dep 0 418
+edc 0
+edc 1
+apt 0 0 780
+ret 1 209
+ret 0 214
+trn 1 1 618
+ret 0 614
+trn 1 1 268

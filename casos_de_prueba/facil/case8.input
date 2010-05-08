@@ -1,0 +1,90 @@
+edc 1
+dep 3 492
+trn 0 1 820
+dep 0 256
+dep 1 622
+apt 0 2 421
+edc 1
+ret 1 216
+trn 0 0 945
+dep 2 368
+trn 3 0 359
+edc 3
+ret 2 115
+ret 1 742
+apt 2 2 913
+ret 2 205
+apt 3 3 126
+ret 2 968
+ret 3 83
+edc 0
+trn 1 0 554
+trn 1 0 678
+trn 2 3 359
+trn 3 2 288
+dep 3 703
+ret 2 39
+apt 0 3 803
+dep 2 534
+apt 2 3 838
+trn 3 1 742
+edc 1
+edc 3
+apt 2 1 855
+ret 3 859
+edc 2
+dep 2 319
+trn 0 3 451
+edc 3
+apt 3 0 609
+edc 3
+ret 1 722
+dep 0 558
+dep 1 425
+edc 3
+dep 1 966
+apt 3 3 702
+ret 0 149
+dep 2 682
+dep 1 197
+trn 2 3 309
+trn 1 0 334
+apt 2 2 439
+ret 0 337
+trn 0 0 52
+ret 0 732
+trn 1 0 672
+edc 0
+ret 1 227
+apt 2 2 111
+trn 2 2 566
+trn 1 0 762
+dep 1 244
+ret 3 65
+dep 0 505
+trn 0 0 192
+trn 0 1 838
+edc 0
+ret 3 650
+edc 0
+trn 3 1 802
+trn 1 3 440
+trn 2 2 265
+edc 3
+dep 3 496
+dep 3 647
+edc 3
+ret 1 684
+dep 1 313
+apt 2 1 158
+dep 3 620
+ret 2 48
+apt 3 3 374
+apt 3 0 29
+trn 0 2 248
+edc 0
+apt 0 2 166
+ret 2 845
+edc 0
+trn 2 1 195
+dep 0 924

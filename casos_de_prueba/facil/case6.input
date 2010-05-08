@@ -1,0 +1,30 @@
+apt 3 1 477
+dep 2 142
+edc 3
+edc 2
+edc 0
+apt 2 0 62
+dep 3 379
+dep 0 632
+dep 0 2
+ret 0 587
+apt 1 1 598
+edc 1
+edc 1
+ret 0 940
+edc 2
+dep 0 714
+dep 3 43
+apt 0 1 706
+apt 2 2 687
+dep 3 904
+ret 2 36
+dep 3 557
+ret 2 536
+dep 1 201
+ret 0 479
+edc 2
+dep 2 220
+trn 1 0 403
+edc 0
+trn 2 1 958

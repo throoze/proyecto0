@@ -1,0 +1,30 @@
+Ok.
+Error: # cuenta incorrecto.
+Error: monto incorrecto.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Ok.
+Error: monto incorrecto.
+Error: monto incorrecto.
+Error: # cuenta1 igual a # cuenta2.
+0. apt 0 0 141
+bal 141
+Ok.
+Error: # cuenta incorrecto.
+Ok.
+Error: monto incorrecto.
+Ok.
+0. apt 1 0 192
+1. dep 1 130
+bal 322
+Ok.
+Error: # cuenta incorrecto.
+Error: # cuenta incorrecto.
+Ok.
+Ok.
+0. apt 0 0 141
+1. dep 0 761
+2. dep 0 164
+3. trn 0 1 42
+bal 1024
+Ok.
