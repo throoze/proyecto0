@@ -1,8 +1,11 @@
 public class Apertura extends Transaccion {
 
+    // Modelo de representacion (atributos):
     private int nroCuenta;
     private int cedula;
     private int monto;
+
+    // Operaciones:
 
     public Apertura(int cuenta, int cedula, int monto) {
         this.nroCuenta = cuenta;

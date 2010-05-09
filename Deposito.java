@@ -2,7 +2,6 @@
  * Clase que representa al objecto Deposito. el formato de entrada es:
  * dep [numCuenta] [monto]
  * @author Victor De Ponte 05-38087, Karina Valera
- * @date 09/05/2010
  */
 public class Deposito extends Transaccion {
 

@@ -4,18 +4,40 @@
  */
 public class Transferencia extends Transaccion {
 
-    Transferencia(int parseInt, int parseInt0, int parseInt1) {
-        throw new UnsupportedOperationException("Not yet implemented");
+    // Modelo de representacion (atributos):
+    private int ctaOrigen;
+    private int ctaDestino;
+    private int monto;
+
+    // Operaciones:
+
+    Transferencia(int orig, int dest, int mont) {
+        this.ctaDestino = dest;
+        this.ctaOrigen = orig;
+        this.monto = mont;
     }
 
     @Override
     public void ejecutar(Banco banco) throws Status {
-        throw new UnsupportedOperationException("Not supported yet.");
+        banco.hacerTransferencia(this);
     }
 
     @Override
     public String toString() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        String s;
+        s = "trn " + this.ctaOrigen + " " + this.ctaDestino + " " + this.monto;
+        return s;
     }
 
+    public int obtCtaOrigen() {
+        return this.ctaOrigen;
+    }
+    
+    public int obtCtaDestino() {
+        return this.ctaDestino;
+    }
+
+    public int obtMonto() {
+        return this.monto;
+    }
 }
