@@ -4,7 +4,7 @@
  */
 public class Cuenta {
 
-    private int numeroDeCuenta;
+    private int nroDeCuenta;
     private int ci;
     private int saldo;
     private static int indice=0;
