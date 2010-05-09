@@ -4,4 +4,3 @@ abstract public class Transaccion {
     abstract public String toString();
 
 }
-
