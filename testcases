@@ -1,8 +1,11 @@
 #!/bin/bash
+#set -o xtrace
 shopt -s extglob
 
 for i in $(seq 1 10)
 do
-echo -e "Corriendo el caso de prueba $i...\n"
-java Main casos_de_prueba/facil/"case$i" ../test/salida$i
+echo -e "\nCorriendo el caso de prueba $i..."
+java Main casos_de_prueba/facil/"case$i.input" ../test/salida$i
 done
+
+echo -e "\nTareas terminadas. Encontrará los archivos de salida generados \nen la carpeta test del proyecto de netbeans en uso. \n          \"proyecto0/test\"\n"
