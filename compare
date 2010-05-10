@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for i in $(seq 1 10)
+do
+  if (diff salida$i ../src/casos_de_prueba/facil/case$i.output)
+  then
+    echo -e "Caso de prueba $i correcto...\n"
+  else
+    echo -e "Caso de prueba $i incorrecto!!!\n"
+  fi
+done
