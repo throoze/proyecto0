@@ -1,6 +1,6 @@
 /**
  * Clase que representa al objecto Deposito. el formato de entrada es:
- * ret [numeroDeCuenta] [monto]
+ * <blockquote><pre>ret [numeroDeCuenta] [monto]</pre></blockquote>
  * @author Victor De Ponte 05-38087, Karina Valera
  */
 class Retiro extends Transaccion {
@@ -13,11 +13,11 @@ class Retiro extends Transaccion {
     // Operaciones:
 
     /**
-     * Constructor de la clase 'Retiro'. inicializa el numero de cuenta y el
-     * monto del deposito, sin ninguna restriccion.
-     * @param acntNumber int Entero que representa el numero de cuenta dela cual
-     * se va a retirar dinero.
-     * @param sum int Entero que representa el monto total de dinero a ser
+     * Constructor de la clase <code>Retiro</code>. Inicializa el numero de
+     * cuenta y el monto del deposito, sin ninguna restriccion.
+     * @param acntNumber Entero (int) que representa el numero de cuenta de la
+     * cual se va a retirar dinero.
+     * @param sum Entero (int) que representa el monto total de dinero a ser
      * retirado.
      */
     public Retiro(int acntNumber, int sum) {
@@ -27,7 +27,7 @@ class Retiro extends Transaccion {
 
     /**
      * Reescritura de la funcion ejecutar, heredada de la clase Transaccion.
-     * Solicita al banco en uso la ejecucion del Retiro this.
+     * Solicita al banco en uso la ejecucion del Retiro <code>this</code>.
      * @param banco El banco en uso.
      * @throws Status El resultado de la transaccion. (ok. si es exitosa y un
      * mensaje de error en caso contrario)
@@ -39,9 +39,9 @@ class Retiro extends Transaccion {
 
     /**
      * Reescritura de la funcion toString, heredada de la clase Transaccion.
-     * Convierte el Retiro 'this' a un String que lo representa, segun el
-     * formato establecido:
-     * ret [numCuenta] [monto]
+     * Convierte el Retiro <code>this</code> a un String
+     * que lo representa, segun el formato establecido:
+     * <blockquote><pre>ret [numeroDeCuenta] [monto]</pre></blockquote>
      * @param banco El banco en uso.
      * @throws Status El resultado de la transaccion. (ok. si es exitosa y un
      * mensaje de error en caso contrario)
@@ -54,18 +54,18 @@ class Retiro extends Transaccion {
     }
 
     /**
-     * Getter del atributo 'monto'.
-     * @return el monto del retiro 'this'.
+     * Getter del atributo <code>monto</code>.
+     * @return el monto del retiro <code>this</code>.
      */
     public int obtMonto() {
         return this.monto;
     }
 
     /**
-     * Getter del atributo 'nroCuenta'.
+     * Getter del atributo <code>nroCuenta</code>.
      * @return el el numero de cuenta a la cual se le efectuara el retiro.
      */
-    public int obtNroCuenta() {
+    public int obtCuenta() {
         return this.nroCuenta;
     }
 }

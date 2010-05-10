@@ -2,30 +2,40 @@ import java.io.PrintStream;
 
 /**
  *
- * @author victor
+ * @author Victor De Ponte 05-38087, Karina Valera 06-40414
  */
 public class EstadoDeCuenta extends Transaccion {
 
-    EstadoDeCuenta(int parseInt, PrintStream out) {
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
+    // Modelo de representacion (atributos):
+    private int cuenta;
+    private PrintStream salida;
 
-    int obtCuenta() {
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
-
-    void print(String edc) {
-        throw new UnsupportedOperationException("Not yet implemented");
+    /**
+     * Constructor de la clase EstadoDeCuenta
+     * @param acnt numero de cuenta a revisar.
+     * @param out Stream de salida del estado de cuenta.
+     */
+    EstadoDeCuenta(int acnt, PrintStream out) {
+        this.cuenta = acnt;
+        this.salida = out;
     }
 
     @Override
     public void ejecutar(Banco banco) throws Status {
-        throw new UnsupportedOperationException("Not supported yet.");
+        banco.hacerEstadoDeCuenta(this);
     }
 
     @Override
     public String toString() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        String s = "edc " + this.cuenta;
+        return s;
     }
 
+    public int obtCuenta() {
+        return this.cuenta;
+    }
+
+    public void print(String edc) {
+        this.salida.print(edc);
+    }
 }

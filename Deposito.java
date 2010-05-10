@@ -65,7 +65,7 @@ public class Deposito extends Transaccion {
      * Getter del atributo 'nroCuenta'.
      * @return el el numero de cuenta donde se efectuara el deposito 'this'.
      */
-    public int obtNroCuenta() {
+    public int obtCuenta() {
         return this.nroCuenta;
     }
 }

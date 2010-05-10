@@ -32,7 +32,8 @@ public class Main {
             this.in = in;
             this.out = out;
         } catch (FileNotFoundException fnfe) {
-            System.err.println("Error al crear archivos, usando entrada y salida estandar");
+            System.err.println("Error al crear archivos, usando entrada y" +
+                    " salida estandar");
         }
     }
 
