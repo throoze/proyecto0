@@ -1,10 +1,25 @@
+/**
+ * Clase que implementa el objeto <code>Banco</code>. Se encarga de albergar
+ * todas las cuentas y de ejecutar todas las transacciones.
+ * @see Cuenta
+ * @see Transaccion
+ * @version 1.0 - 11/05/2010
+ * @author Victor De Ponte, 05-38087
+ * @author Karina Valera, 06-40414
+ */
 public class Banco {
 
     static final int MAX_CUENTAS = 1000;
 
     private Cuenta[] cuentas = new Cuenta[MAX_CUENTAS];
 
-    public Status ejecutarTransaccion(Transaccion t) { 
+    /**
+     * Llama al metodo ejecutar de la transaccion t
+     * @param t Transaccion a ejecutar
+     * @return El <code>Status</code> de salida de la ejecucion de la
+     * transaccion
+     */
+    public Status ejecutarTransaccion(Transaccion t) {
         try {
             t.ejecutar(this);
         } catch (Status s) {
@@ -13,8 +28,12 @@ public class Banco {
         return new Status();
     }
 
-    /*Preguntar por la verificacion del caso borde en el que se alcanza el
-     * maximo de cuentas. Mensaje al usuario? No hacer nada?
+    /**
+     * Abre una cuenta en el banco <code>this</code>.
+     * Deberian hacerse las verificaciones por si el banco ha alcanzado el
+     * maximo posible de cuentas a albergar.
+     * @param t Transaccion a ser ejecutada
+     * @throws Status Status de Salida de la ejecucion de la transaccion
      */
     void hacerApertura(Apertura t) throws Status {
         if (cuentas[t.obtCuenta()] != null)
@@ -26,6 +45,11 @@ public class Banco {
         cuentas[t.obtCuenta()].agregarTransaccion(t);
     }
 
+    /**
+     * Hace un deposito en una cuenta albergada en el banco <code>this</code>.
+     * @param t Transaccion a ser ejecutada
+     * @throws Status Status de Salida de la ejecucion de la transaccion
+     */
     void hacerDeposito(Deposito t) throws Status {
 		if (cuentas[t.obtCuenta()] == null)
             throw new Status(true,Status.msg_error_cuenta);
@@ -35,6 +59,11 @@ public class Banco {
 			cuentas[t.obtCuenta()].agregarTransaccion(t);        
     }
 
+    /**
+     * Hace un retiro en una cuenta albergada en el banco <code>this</code>.
+     * @param t Transaccion a ser ejecutada
+     * @throws Status Status de Salida de la ejecucion de la transaccion
+     */
     void hacerRetiro(Retiro t) throws Status {
 		if (cuentas[t.obtCuenta()] == null) 
 		   throw new Status(true,Status.msg_error_cuenta);
@@ -45,6 +74,12 @@ public class Banco {
 
     }
 
+    /**
+     * Hace una transferencia entre cuentas albergadas en el banco
+     * <code>this</code>.
+     * @param t Transaccion a ser ejecutada
+     * @throws Status Status de Salida de la ejecucion de la transaccion
+     */
     void hacerTransferencia(Transferencia t) throws Status {
 	    if (cuentas[t.obtCtaOrigen()] == null)
             throw new Status(true,Status.msg_error_cuenta1);
@@ -61,6 +96,13 @@ public class Banco {
 		 cuentas[t.obtCtaDestino()].agregarTransaccion(t);
     }
 
+    /**
+     * Solicita el estado de una cuenta albergada en el banco y agrega al final
+     * de este el balance de dicha cuenta.
+     * <code>this</code>.
+     * @param t Transaccion a ser ejecutada
+     * @throws Status Status de Salida de la ejecucion de la transaccion
+     */
     void hacerEstadoDeCuenta(EstadoDeCuenta t) throws Status {
         if (cuentas[t.obtCuenta()] == null)
             throw new Status(true,Status.msg_error_cuenta);
@@ -68,6 +110,4 @@ public class Banco {
         edc += "bal " + cuentas[t.obtCuenta()].obtSaldo() + "\n";
         t.print(edc);
     }    
-
 }
-

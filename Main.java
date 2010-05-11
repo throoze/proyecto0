@@ -5,6 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 
+/**
+ * Programa cliente suministrado por la catedra. Deberia chequear la validez de
+ * los comandos introducidos.
+ * @author La Catedra de Algoritmos y Estructuras III
+ */
 public class Main {
 
     private BufferedReader in;

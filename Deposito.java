@@ -1,7 +1,14 @@
 /**
- * Clase que representa al objecto Deposito. el formato de entrada es:
- * dep [numCuenta] [monto]
- * @author Victor De Ponte 05-38087, Karina Valera
+ * Clase que implementa el objeto <code>Deposito</code>. Representa la
+ * transaccion 'deposito en una cuenta' en un banco. Hereda de la clase
+ * abstracta <code>Transaccion</code>. El formato del comando que ejecuta un
+ * deposito en una cuenta es:
+ * <blockquote><pre>dep [numCuenta] [monto]</pre></blockquote>
+ * @see Banco
+ * @see Transaccion
+ * @version 1.0 - 11/05/2010
+ * @author Victor De Ponte, 05-38087
+ * @author Karina Valera, 06-40414
  */
 public class Deposito extends Transaccion {
 
@@ -13,8 +20,9 @@ public class Deposito extends Transaccion {
     // Operaciones:
 
     /**
-     * Constructor de la clase 'Deposito'. inicializa el numero de cuenta y el
-     * monto del deposito, sin ninguna restriccion.
+     * Construye un objeto <code>Deposito</code>, inicializando
+     * <code>this.nroCuenta</code> y <code>this.monto</code> en los valores de
+     * <code>acntNumber</code> y <code>sum</code> respectivamente.
      * @param acntNumber int Entero que representa el numero de cuenta donde
      * se va a depositar.
      * @param sum int Entero que representa el monto total de dinero a ser
@@ -26,8 +34,9 @@ public class Deposito extends Transaccion {
     }
 
     /**
-     * Reescritura de la funcion ejecutar, heredada de la clase Transaccion.
-     * Solicita al banco en uso la ejecucion del Deposito 'this'.
+     * Reescritura de la funcion ejecutar, heredada de la clase
+     * <code>Transaccion</code>.
+     * Solicita al banco en uso la ejecucion del Deposito <code>this</code>.
      * @param banco El banco en uso.
      * @throws Status El resultado de la transaccion. (ok. si es exitosa y un
      * mensaje de error en caso contrario)
@@ -38,10 +47,10 @@ public class Deposito extends Transaccion {
     }
 
     /**
-     * Reescritura de la funcion toString, heredada de la clase Transaccion.
-     * Convierte la transaccion 'this' a un String que lo representa, segun el
-     * formato establecido:
-     * dep [numCuenta] [monto]
+     * Reescritura de la funcion <code>toString</code>, heredada de la clase
+     * Transaccion. Convierte la transaccion <code>this</code> a un
+     * <code>String</code> que lo representa, segun el formato establecido:
+     * <blockquote><pre>dep [numCuenta] [monto]</pre></blockquote>
      * @param banco El banco en uso.
      * @throws Status El resultado de la transaccion. (ok. si es exitosa y un
      * mensaje de error en caso contrario)

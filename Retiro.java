@@ -1,7 +1,12 @@
 /**
- * Clase que representa al objecto Deposito. el formato de entrada es:
+ * Clase que representa al objecto Deposito. Hereda de la clase
+ * <code>Transaccion</code>. El formato de entrada es:
  * <blockquote><pre>ret [numeroDeCuenta] [monto]</pre></blockquote>
- * @author Victor De Ponte 05-38087, Karina Valera
+ * @see Banco
+ * @see Transaccion
+ * @version 1.0 - 11/05/2010
+ * @author Victor De Ponte, 05-38087
+ * @author Karina Valera, 06-40414
  */
 class Retiro extends Transaccion {
     
@@ -63,7 +68,7 @@ class Retiro extends Transaccion {
 
     /**
      * Getter del atributo <code>nroCuenta</code>.
-     * @return el el numero de cuenta a la cual se le efectuara el retiro.
+     * @return el numero de cuenta a la cual se le efectuara el retiro.
      */
     public int obtCuenta() {
         return this.nroCuenta;
