@@ -49,7 +49,6 @@ public class EstadoDeCuenta extends Transaccion {
      * Transaccion. Convierte la transaccion <code>this</code> a un
      * <code>String</code> que lo representa, segun el formato establecido:
      * <blockquote><pre>edc [numCuenta]</pre></blockquote>
-     * @param banco El banco en uso.
      * @throws Status El resultado de la transaccion. (ok. si es exitosa y un
      * mensaje de error en caso contrario)
      */
@@ -68,9 +67,9 @@ public class EstadoDeCuenta extends Transaccion {
     }
 
     /**
-     * Getter del atributo 'salida'.
-     * @return el Stream (flujo) de salida del programa. Puede ser un archivo o
-     * la salida estandar.
+     * Manda el String <code>edc</code> por la salida asignada al
+     * <code>PrintStream salida</code>.
+     * @param edc String a escupir
      */
     public void print(String edc) {
         this.salida.print(edc);

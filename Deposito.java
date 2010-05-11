@@ -51,7 +51,6 @@ public class Deposito extends Transaccion {
      * Transaccion. Convierte la transaccion <code>this</code> a un
      * <code>String</code> que lo representa, segun el formato establecido:
      * <blockquote><pre>dep [numCuenta] [monto]</pre></blockquote>
-     * @param banco El banco en uso.
      * @throws Status El resultado de la transaccion. (ok. si es exitosa y un
      * mensaje de error en caso contrario)
      */
