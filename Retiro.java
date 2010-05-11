@@ -8,7 +8,7 @@
  * @author Victor De Ponte, 05-38087
  * @author Karina Valera, 06-40414
  */
-class Retiro extends Transaccion {
+public class Retiro extends Transaccion {
     
     // Modelo de representacion (atributos):
     private int nroCuenta;
@@ -47,7 +47,6 @@ class Retiro extends Transaccion {
      * Convierte el Retiro <code>this</code> a un String
      * que lo representa, segun el formato establecido:
      * <blockquote><pre>ret [numeroDeCuenta] [monto]</pre></blockquote>
-     * @param banco El banco en uso.
      * @throws Status El resultado de la transaccion. (ok. si es exitosa y un
      * mensaje de error en caso contrario)
      */
