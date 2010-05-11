@@ -1,8 +1,8 @@
 #!/bin/bash
-
+echo ""
 for i in $(seq 1 10)
 do
-  if (diff salida$i ../src/casos_de_prueba/facil/case$i.output)
+  if (diff ../test/salida$i casos_de_prueba/facil/case$i.output)
   then
     echo -e "Caso de prueba $i correcto...\n"
   else
