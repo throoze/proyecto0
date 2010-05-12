@@ -41,5 +41,4 @@ abstract public class Transaccion {
      * uso
      */
     abstract public String toString();
-
 }

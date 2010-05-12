@@ -62,6 +62,4 @@ public class Status extends Exception {
             s = "Ok.";
         return s;
     }
-
 }
-

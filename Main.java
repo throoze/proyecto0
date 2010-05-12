@@ -89,11 +89,11 @@ public class Main {
         } else if (args.length == 0) {
            m = new Main();
         } else {
-           System.err.println("Sintaxis: prog <ArchivoEntrada> <ArchivoSalida>");
+           System.err.println("Sintaxis: prog <ArchivoEntrada> " +
+                   "<ArchivoSalida>");
            System.exit(-1);
         }
 
         m.procesar();
     }
 }
-

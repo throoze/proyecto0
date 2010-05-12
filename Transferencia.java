@@ -28,7 +28,7 @@ public class Transferencia extends Transaccion {
      * @param dest Nro de cuenta del destino de la transferencia
      * @param mont Suma de dinero a transferir
      */
-    Transferencia(int orig, int dest, int mont) {
+    public Transferencia(int orig, int dest, int mont) {
         this.ctaDestino = dest;
         this.ctaOrigen = orig;
         this.monto = mont;

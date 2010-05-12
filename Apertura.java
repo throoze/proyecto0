@@ -80,6 +80,4 @@ public class Apertura extends Transaccion {
     public int obtMonto() {
         return monto;
     }
-
 }
-

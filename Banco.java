@@ -35,7 +35,7 @@ public class Banco {
      * @param t Transaccion a ser ejecutada
      * @throws Status Status de Salida de la ejecucion de la transaccion
      */
-    void hacerApertura(Apertura t) throws Status {
+    public void hacerApertura(Apertura t) throws Status {
         if (cuentas[t.obtCuenta()] != null)
             throw new Status(true,Status.msg_error_cuenta);
         if (t.obtMonto() < 0) 
@@ -50,7 +50,7 @@ public class Banco {
      * @param t Transaccion a ser ejecutada
      * @throws Status Status de Salida de la ejecucion de la transaccion
      */
-    void hacerDeposito(Deposito t) throws Status {
+    public void hacerDeposito(Deposito t) throws Status {
 		if (cuentas[t.obtCuenta()] == null)
             throw new Status(true,Status.msg_error_cuenta);
         if (t.obtMonto() < 0) 
@@ -64,7 +64,7 @@ public class Banco {
      * @param t Transaccion a ser ejecutada
      * @throws Status Status de Salida de la ejecucion de la transaccion
      */
-    void hacerRetiro(Retiro t) throws Status {
+    public void hacerRetiro(Retiro t) throws Status {
 		if (cuentas[t.obtCuenta()] == null) 
 		   throw new Status(true,Status.msg_error_cuenta);
 	    if (t.obtMonto() < 0 || t.obtMonto() > cuentas[t.obtCuenta()].obtSaldo())
@@ -80,7 +80,7 @@ public class Banco {
      * @param t Transaccion a ser ejecutada
      * @throws Status Status de Salida de la ejecucion de la transaccion
      */
-    void hacerTransferencia(Transferencia t) throws Status {
+    public void hacerTransferencia(Transferencia t) throws Status {
 	    if (cuentas[t.obtCtaOrigen()] == null)
             throw new Status(true,Status.msg_error_cuenta1);
 		if (cuentas[t.obtCtaDestino()] == null)
@@ -103,7 +103,7 @@ public class Banco {
      * @param t Transaccion a ser ejecutada
      * @throws Status Status de Salida de la ejecucion de la transaccion
      */
-    void hacerEstadoDeCuenta(EstadoDeCuenta t) throws Status {
+    public void hacerEstadoDeCuenta(EstadoDeCuenta t) throws Status {
         if (cuentas[t.obtCuenta()] == null)
             throw new Status(true,Status.msg_error_cuenta);
         String edc = cuentas[t.obtCuenta()].estadoDeCuenta();

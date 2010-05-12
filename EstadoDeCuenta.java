@@ -25,7 +25,7 @@ public class EstadoDeCuenta extends Transaccion {
      * @param acnt numero de cuenta a revisar.
      * @param out Stream de salida del estado de cuenta.
      */
-    EstadoDeCuenta(int acnt, PrintStream out) {
+    public EstadoDeCuenta(int acnt, PrintStream out) {
         this.cuenta = acnt;
         this.salida = out;
     }
